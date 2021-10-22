@@ -36,7 +36,7 @@ While easyOCR is doing a great job most of the time, I encountered several image
 Rules of solving a sudoku are the following: a number should appear only once in any column, only once in any row and only once in any of the smaller squares. The solver algorithm looks for the first empty cell and fills it with the number one (1). Then it checks if the number is correct by validating the 3 conditions above. If any of the conditions aren’t met, the number is increased by 1. This process is repeated until a suitable number is found, and repeated on the next empty cell. In case all the options are exhausted (if the number 4 is reached and rejected), the algorithm goes back to the previous non-prefilled cell and restarts the iteration. This is called [backtracking](https://en.wikipedia.org/wiki/Backtracking). Once backtracking is called on the last cell - which means the puzzle is unsolvable - the function returns the original puzzle and prompts the user for restarting the process.
 
 
-### Possible improvements
+### Improvement ideas
 I chose to limit the scope of my project to keep my sanity. If I had more time I would work on the following:
 * Scale to a full 9x9 puzzle.
 * Improve sudoku detection. Current implementation needs a clearly visible border.
