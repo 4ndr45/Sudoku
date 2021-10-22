@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block load_text %}
+        <p class="card-text">
+            The following extensions are supported: png, jpg and gif.
+        </p>
+{% endblock %}
+
+{% block load %}
+    <form method="post" action="/" enctype="multipart/form-data">
+        <div class="mb-3">
+            <input type="file" name="file" class="form-control" autocomplete="off" required>
+        </div>
+        <input type="submit" value="Submit" id="submit_btn" class="btn btn-primary">
+        <button class="btn btn-primary btn-block d-none" id="loading_btn" type="button" disabled>
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            Uploading
+        </button>
+    </form>
+{% endblock %}
+
+{% block solve_body %}
+<div class="card stripes">
+</div>
+{% endblock %}
+
+{% block again %}
+<div class="card stripes">
+</div>
+{% endblock %}

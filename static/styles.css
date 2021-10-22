@@ -1,0 +1,231 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+.table {
+  border: 3px solid black;
+}
+
+.table td {
+    text-align: center;
+}
+
+.form-control{
+    height: 100%;
+    padding:0;
+}
+
+.card-text{
+text-align: left;
+}
+
+.card-title{
+text-align: left;
+}
+
+.container-sudoku {
+  background: black;
+  display: inline-block;
+  border: 5px solid black;
+  margin-bottom: .5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: repeat(4, 50px);
+  grid-gap: 2px;
+}
+
+/*Small devices (tablets, 480px and up)*/
+@media (min-width: 480px) {
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: repeat(4, 50px);
+  grid-gap: 2px;
+}
+
+.cell {
+   /* center the cell content */
+  font-size: 20px;
+}
+.card{
+  width: 318px;
+  min-height: 420px;
+}
+
+input[type=text] {
+  height: 50px;
+  width: 50px;
+  padding: 0.2em;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: repeat(4, 50px);
+  grid-gap: 2px;
+}
+
+.cell {
+   /* center the cell content */
+  font-size: 20px;
+}
+
+.card{
+  width: 318px;
+  min-height: 420px;
+}
+
+input[type=text] {
+  height: 50px;
+  width: 50px;
+  padding: 0.2em;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 40px);
+  grid-template-rows: repeat(4, 40px);
+  grid-gap: 2px;
+}
+
+.cell {
+   /* center the cell content */
+  font-size: 20px;
+}
+
+.card{
+  width: 260px;
+  min-height: 420px;
+}
+
+input[type=text] {
+  height: 40px;
+  width: 40px;
+  padding: 0em;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: repeat(4, 50px);
+  grid-gap: 2px;
+}
+
+.cell {
+   /* center the cell content */
+  font-size: 24px;
+}
+
+.card{
+  width: 318px;
+  min-height: 420px;
+}
+
+input[type=text]  {
+  height: 50px;
+  width: 50px;
+  padding: 0.2em;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+}
+}
+
+.cell {
+   /* center the cell content */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: ;
+  background: white;
+}
+
+.container-img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+#footer {
+  margin-top:auto;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
+.card-text {
+    height: 48px;
+}
+
+.stripes {
+  color: white;
+  background: repeating-linear-gradient(
+    45deg,
+    #ffffff,
+    #ffffff 10px,
+    #f7f7f9 10px,
+    #f7f7f9 20px
+  );
+}
+
+.img-2 {
+max-height:216px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input[type=submit] {
+  padding: 0.2em;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #212529;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #212529;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #212529;
+}
