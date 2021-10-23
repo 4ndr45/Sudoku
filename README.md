@@ -1,6 +1,9 @@
 # CS50 Final Project - Sudoku solver 4x4
 
-My final project is an application that solves 4x4 sudokus using OCR (optical character recognition) and backtracking.  I have always enjoyed solving sudoku puzzles and wanted to create an app that does just that. 
+My final project is an application that solves 4x4 sudokus using OCR (optical character recognition) and backtracking.  I have always enjoyed solving sudoku puzzles and wanted to create an app that does just that.
+
+### Video Demo ### 
+[Link](https://www.youtube.com/watch?v=vIe6JJ7_EjA)
 
 ### Technologies used:
 * Flask
